@@ -35,6 +35,7 @@
                 "select-preset": "选择预设",
                 "default": "默认",
                 "warm": "温暖",
+                "sunset": "日落",
                 "night": "夜晚",
                 "off": "无光照",
                 "bright": "明亮",
@@ -63,6 +64,12 @@
         },
         "dialogue": {
             "header": "对话",
+            "box-type": {
+                "header": "对话框外观",
+                "default": "默认（新版）",
+                "classic": "经典（旧版）",
+                "mysekai": "我的「世界」"
+            },
             "font-size": "文字大小",
             "enter-font-size": "输入文字大小",
             "add-symbol": "添加"
@@ -73,6 +80,11 @@
                 "header": "显示位置",
                 "middle": "中间",
                 "top-left": "顶部左侧"
+            },
+            "box-type": {
+                "header": "对话框外观",
+                "default": "默认（新版）",
+                "classic": "经典（旧版）"
             },
             "hide-everything": "隐藏所有文字与人物模型"
         },
@@ -85,7 +97,7 @@
     "model": {
         "header": "人物模型",
         "selected-layer": {
-            "header": "所选择的图层",
+            "header": "选择的图层",
             "layer": "图层",
             "add-model": {
                 "header": "添加模型",
@@ -95,7 +107,7 @@
                 "static": "SEKAI Stories",
                 "static-description": "当Sekai Viewer无法访问时的备用选项，如果Sekai Viewer可以使用，那么我建议你使用Sekai Viewer",
                 "upload-image": "上传图片",
-                "upload-image-description": "上传你自己的自定义精灵图。"
+                "upload-image-description": "上传你自己的自定义精灵图"
             },
             "delete-model-warn": "这是最后一个图层了，无法再删除了"
         },
@@ -111,7 +123,7 @@
         },
         "emotion": {
             "header": "神态",
-            "rename-emotion": "给这种神态取个好听的名字，留空可以重置",
+            "rename-emotion": "给这个神态取个好听的名字，留空可以重置",
             "pose": "动作",
             "select-pose": "选择一个动作",
             "expression": "表情",
@@ -143,22 +155,23 @@
                 "select-parameter": "选择参数",
                 "tooltip": "你可以使用方向键来选择或调整参数"
             },
+            "reapply-all": "全部重置",
             "idle": "闲置动画",
             "import-export": {
                 "header": "导入/导出",
-                "description": "你可以保存对这个模型所做的调整，并把这些调整加载到其他的模型上，很方便，不是吗"
+                "description": "你可以保存对这个模型所做的调整，并把这些调整加载到其他的模型上，这也太方便了吧！"
             },
             "emotion-copy": {
                 "header": "复制神态",
-                "description": "你可以保存对这个模型的神态所做的调整，并把这些调整加载到其他的模型上，很方便，不是吗",
+                "description": "你可以保存对这个模型的神态所做的调整，并把这些调整加载到其他的模型上，这也太方便了吧！",
                 "confirm-header": "复制成功",
                 "confirm-description": "已复制神态信息"
             },
             "show-live2d-parts": "显示Live 2D部件",
-            "access-live2d-parts": "你将会查看这个模型的所有部分。确定要继续吗？"
+            "access-live2d-parts": "你将会查看这个模型的所有部分（挺诡异的）。确定要继续吗？"
         },
         "live2d-changed-warn": "你可以自定义Live2D的参数。如果继续会丢弃它们",
-        "long-wait": "如果模型的加载时间过长，那么你可以考虑使用SEKAI Stories获取模型",
+        "long-wait": "如果模型的加载时间过长，你可以考虑使用SEKAI Stories获取模型",
         "re-apply": "确定",
         "advanced": "高级"
     },
@@ -168,16 +181,16 @@
         "refresh": "刷新"
     },
     "clear": {
-        "message": "这么做会清除整个画布，所有的进度都会丢失，我提醒过你了哦！",
+        "message": "这么做会清除整个画布，所有的进度都会丢失。我提醒过你了哦！",
         "start-blank": "下次从空白画布开始"
     },
     "support": {
         "header": "支持作者",
-        "report-header": "发现了bug？",
-        "report-details": "如果你遇到了任何bug或者漏洞，请在我们的GitHub仓库中报告它们。",
+        "report-header": "发现了Bug？",
+        "report-details": "如果你遇到了任何Bug或者漏洞，请在我的GitHub仓库中报告它们。",
         "report-button": "报告一个问题",
-        "details": "如果你非常非常喜欢SEKAI Stories，你可以通过以下方式之一支持作者：",
-        "ko-fi-details": "捐款是个很好的选择！我也会在捐款网站那里发布我这个网站的更新",
+        "details": "如果你真的非常非常非常喜欢SEKAI Stories，你可以通过以下方式之一支持作者：",
+        "ko-fi-details": "捐款是个很好的选择！我也会在捐款网站那里发布我这个网站的更新公告",
         "github-details": "这个项目是完全开源的！你可以在Github上报告问题或打开拉取请求来做出贡献！",
         "special-thanks-header": "特别感谢",
         "special-thanks-description": "我要在这里感谢Sekai Viewer的所有者允许我访问他们的模型!"
@@ -251,7 +264,7 @@
         "expand": "自动展开所有菜单选项",
         "tutorial": "教程",
         "show-tutorial": "再次显示",
-        "mental-health-window": "显示心理健康警告",
+        "mental-health-window": "显示心理健康提示",
         "save-dialog": "显示保存菜单",
         "blank-canvas": "从空白画布开始",
         "announcement": "显示公告"
@@ -271,7 +284,7 @@
         "header": "错误",
         "import-scene-fail": "画布已重置，这不就尴尬了嘛",
         "invalid-json": "JSON文件无效，检查后再上传吧",
-        "no-autosave": "未找到自动保存数据，下次记得自己保存一遍再关掉",
+        "no-autosave": "自动保存数据不见了！下次记得自己保存一遍再关掉",
         "no-valid-models": "请先添加一个Live2D角色模型",
         "not-an-image": "这也不是图片啊",
         "default-scene-fail": "如果在加载默认场景时出错。\n请点击“清除”按钮、刷新浏览器或清除网站Cookies信息。\n如果问题仍然存在，请在我的GitHub仓库里报告这个问题，谢谢！",
@@ -280,9 +293,9 @@
         "hide-everything-warning": "在“场景名称”菜单下的“隐藏所有文字与人物模型”选项已经被打开了\n请先把这个选项关闭掉再进行操作"
     },
     "mental-health": {
-        "header": "你可以寻求帮助",
-        "details": "你的感受很重要，你并不孤单。如果你正在经历困难时刻，可以点击下方按钮找到资源和愿意提供帮助的人。",
-        "settings-details": "你可以在设置中关闭此消息。",
+        "header": "寻求帮助没关系！",
+        "details": "你的心情很重要（真的！）。你并不孤单！如果你正在经历困难时刻，可以点击下方“带我过去”按钮找到资源和愿意提供帮助的人。",
+        "settings-details": "如果你不需要的话，你可以在设置中关闭此消息。",
         "button": "带我过去"
     },
     "tutorial": {
@@ -294,11 +307,11 @@
             "header": "欢迎来到SEKAI Stories!",
             "intro-header": "这个超级无敌、特别好用、翻译了很久的教程会教会你怎样使用这个网站",
             "paragraph-1": "如果你已经是个老手了，那么你就可以直接关闭这个教程了",
-            "paragraph-2": "不必担心你之后会找不到这个教程，你之后可以随时在设置里再次打开这个教程",
+            "paragraph-2": "不必担心，你之后可以随时在设置里再次打开这个教程",
             "confirm-first-time": "我第一次使用这个网站"
         },
         "menu-navigation": {
-            "header": "这些会帮助你不在菜单和菜单中间迷路"
+            "header": "这些会帮助你更快找到菜单"
         },
         "background-menu": {
             "header": "背景菜单",
@@ -327,13 +340,13 @@
             },
             "scene-text": {
                 "header": "场景名称",
-                "paragraph": "你故事的场景和时间应该在故事的开头显示"
+                "paragraph": "你的故事场景和时间应该在故事的开头显示"
             }
         },
         "model-menu": {
             "header": "模型和动作菜单",
             "selected-layer": {
-                "header": "所选择的图层",
+                "header": "选择的图层",
                 "paragraph": "你画布上显示的所有模型都在这里，你可以选择并进行一些调整",
                 "add-model": {
                     "header": "添加模型",
@@ -384,7 +397,7 @@
                 "paragraph": "你可以通过调整Live2D的参数来自定义角色的姿势和空闲动画",
                 "import-export": {
                     "header": "导入/导出",
-                    "paragraph": "你可以保存对这个模型所做的调整，并把这些调整加载到其他的模型上，很方便，不是吗？"
+                    "paragraph": "你可以保存对这个模型所做的调整，并把这些调整加载到其他的模型上，这也太方便了吧！"
                 },
                 "emotion-copy": {
                     "header": "复制神态",
@@ -393,8 +406,8 @@
             }
         },
         "save": {
-            "header": "完成后，记得保存你的画布！不要怪我没提醒过你",
-            "scene-paragraph": "这个功能可以让你把整个画布保存为可编辑的格式，然后在下一次打开时重新加载"
+            "header": "完成后，记得保存你的画布！不要怪我没提醒过你哦！",
+            "scene-paragraph": "这个功能可以让你把整个画布保存为可编辑的格式（JSON），然后在下一次打开时重新加载"
         },
         "ending": {
             "header": "就是这样！",
